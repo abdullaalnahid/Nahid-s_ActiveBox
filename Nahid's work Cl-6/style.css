@@ -1,0 +1,266 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+html, 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+html, 
+body i{
+	color: #fff;
+	padding-left: 3px;
+}
+
+/*--------Header Area Start----------*/
+
+.header-contact{
+	display:flex;
+	justify-content:space-between;
+	background-color:#81AC27;
+	height:50px;
+	
+}
+.contect{
+	padding: 14px 179px;
+}
+.login{
+	padding: 14px 222px;
+}
+.gmail{
+	float:left;
+}
+ .gmail p{
+	float:right;
+	padding-left:5px;
+	color:#fcfcfc;
+	font-size:16px;
+ }
+.phone{
+	float:right;
+	padding:0px 10px;
+}
+.phone p{
+	float:right;
+	padding-left:5px;
+	color:#fcfcfc;
+	font-size:16px;
+}
+.font{
+	margin-left:-62px;
+}
+.log-in{
+	margin-top:-18px;
+}
+.log-in p{
+	float:right;
+	padding-left:5px;
+	color:#fcfcfc;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+}
+.header-logo{
+	display: flex;
+	justify-content: space-between;
+	padding-top:36px;
+	height: 100px;;
+}
+.logo img{
+	height:42px;
+	padding-left:179px;
+}
+.my-choice{
+	padding-right:220px;
+}
+
+.my-choice p{
+	float:right;
+	padding-left:6px;
+	color:#000;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+}
+.my-choice .far::after,
+.my-choice .fas::after{
+    content:attr(value);
+	font-size:14px;
+    color: #fff;
+    background: #81AC27;
+    padding: 0 4px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -6px;
+}
+.header-menu ul{
+	background-color: #151932;
+	padding: 0px 160px;
+
+}
+.header-menu ul li{
+	list-style: none;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	display: inline-block;
+	transition: .3s;
+}
+.header-menu ul li:hover{
+	background-color:#81AC27;
+}
+.header-menu ul li a{
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 17px;
+}
+
+/*--------Header Area End----------*/
+/*---------Banner Area Start----------*/
+
+.middle{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(assets/image/header.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.main-content{
+	position: absolute;
+	text-align: left;
+	transform: translate(33%, 60%);
+}
+.main-content h1{
+	font-size: 45px;
+}
+.main-content a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 26px;
+    border: 1px solid;
+    border-radius: 17px;
+    font-size: 12px;
+	transition: .5s;
+}
+.main-content a:hover{
+	background-color: #81AC27;
+}
+.discount{
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	color: #81AC27;
+	border-radius: 50%;  
+	float: right;
+    transform: translate(-452%, 55%);
+}
+.discount p{
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+	margin-top: 39px;
+}
+
+/*---------Banner Area End----------*/
+/*--------About Area Start---------*/
+
+.about{
+	width: 100%;
+}
+.about-top{
+	padding-left:188px;
+	margin: auto;
+	overflow: hidden;
+}
+.starting{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(assets/image/about/about_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 160px;
+    width: 400px;
+	overflow: hidden;
+	float: left;
+}
+.starting p{
+	margin-top: 20px;
+}
+.ending h4{
+	margin-top: 20px;
+}
+.ending{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(assets/image/about/about_2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 160px;
+    width: 400px;
+	float: right;
+	margin-right: 313px;
+}
+.about-bottom{
+	margin-top: 20px;
+	padding-left:188px;
+}
+.about-pic img{
+	height:370px;
+	width: 400px;
+}
+.about-tx{
+	float: right;
+	color: #000;
+	margin-right: 319px;
+	margin-top: -32%;
+}
+.about-tx h4{
+	color:#81AC27;
+	text-transform: capitalize;
+	font-size: large;
+}
+.about-tx h1{
+	font-size: 32px;
+}
+.about-tx p{
+	color: #373742;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.icon ul li{
+	list-style: none;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.icon ul li i{
+	color: #81AC27;
+	padding-right: 5px;
+}
+.about-admin-image img{
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	float: left;
+}
+.about-admin-tx{
+	padding-top: 12px;
+    padding-left: 70px;
+}
+.about-admin-tx h5{
+	color: #000;
+	font-size: 16px;
+}
+.about-admin-tx p{
+	font-size: 13px;
+}
+
+/*--------Trendint Products Start---------*/
+
+.trending-products{
+	text-align: center;
+}
+
+/*--------Trendint Products Start---------*/
